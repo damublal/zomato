@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon"
+        href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAlAMBEQACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABQYBBAcDAv/EADgQAAEEAgECAwUHAQgDAAAAAAABAgMEBREGEiExQVEHE2FxgRQiQpGhscFSIyQyU5PS4fAVFhf/xAAbAQEAAwEBAQEAAAAAAAAAAAAAAgMEBQEGB//EACwRAQACAgEDAgQGAwEAAAAAAAABAgMRBAUSITFBEyJRcRQyYYGhsSOR0RX/2gAMAwEAAhEDEQA/ANO3amuWJLFmR0ksjtq5ynOmZmdy/QceOuOsUpGoh4qeJMAAAAAAAAAAAAAAAAAACWxvI8rja32epac2JF2jV76+WycXtXxEsmbg4M1u+9fKKINbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGwAAAAAADz0BkABgDexWJvZeZYqECyubrqXaIjU+KqSrS1vRn5HKxcevdknT0zuHlwlqOrZlY+Z0SSORng3aqmt+fge3pNJ1KPE5VeTWb1jUI0g1AAAAAtXCeN1c822+66ZrIlajfdP13Xa+hdixRaNy5HU+fk4s1jHrytP8A87w3+fd/1G/7S74NXL/9zk/SP5/6r3L+LUcRDTjxrrEtuzOjEje9FVU0vgiInnr8yvLjisePV0On9Sy8i1py67Yj1S2I9n9OKBsuYlfLKqbcyN/Sxv18VJ1wViN2Y+R1rLa2sMahjO+z+otR8uIfLHM1qqkT3dTX/wAoeXwRMfKcXrOXviubzH1QvCOM0s/Wsz3X2GLFIjUSNUTfbffaKQx4otHlu6l1HJxbRXHEamG+/gsU+fkrV3zRY6FjVfIrupznL+FNp8vkT+FE217MsdYtXBu3m8tnk3CKVfFLLiWTfamuajWq9Xe82qJrv8xfDWK+FfE6tmnLrNPytjE+z/Hx1UXJvknsOT7yMerWs+Xr9T2uCuvKHI61mtf/ABeIVNcDVZzF2FlsSRwK/pZIiIrtdPUiL5fDZTFI79OvHNyfgvjxG5WtuK4PScleeam+Xev7ax1Lv499IX9uJyJ5PU8kd8ROvs1eZcQoVcXLkcYxYnQJ1viRyua5vw9F/Qjkw17d1XdP6pmvljFlncSsPEMLVxOMY+DqWWzGx8znO3315fmWY6RWPDnc/lXz5J7vSPRG83weNlqXstM+RbUcOmIkmkRU8O3zUjkpGps0dO5eetq4aflmURxbg7btWO5l3SMY9OqOBv3VVPVy+KfIrx4YmN2buf1eaXnHg9vdPWuC4OzAra8ckD/wyRyqvf67QtnDSY8Ofj6tyq2+aduaZjHS4rJT0p126JeztdnJ5L+RktXtnT6jjZ658UZK+7SIrwCV49VyeQupTxlmxD1/ekdHI5rWp/UulLKRaZ1DHzMmDFT4mWIn6OoW7lTieDas88s7mJpnvJFdJM/6/wDUQ1TPw6+XyuPFk5uf5Y1/UKjwuzLnuYS5C+qPkihc9jU8Gd0RET5bUoxT35Ny7HUsdeLw4xU95b/tUtyMq0qrXKkcrnPkRF/xdOtJ+uyzPOo0z9DxRa97zHmFp4ukn/ruP9+q+89w3auXv4FmP8sbcrmRX49+302i+Axx/wDi7lmJPuWLsr268Nb0n7EcXpMtPU7byVifasf0ib2VsZD2g08fBK9larN95rHa945GqqquvH0IzeZyRENmLj0xdPtltHzW/jysPM8q/EYKWxBpJ3qkcS/0uXz+ndSeW/bXbB0/jxyM8Ut6e7x4GkzuN15LEr5ZJXPf1Pcrl7r6qe499nl71PtjlTFY1EKtWwD+Ucjyl2WZYacdl0fW3/E5W9tN8vLxKPhze0zPo6lubHC4uPFWN2mN+f1fU9fg1WZajvtM0iL0K6Nz3d/DW0+J7rFE6K5OqXp3xqI/aFo5m9tPiVxrN6SNsTe/qqNLck6pLl9OrOTl1++3z7P4fdcVqOXxkV7/AM3KMUfLD3qtoty7a+zn0yJlObKx7lWKbIIipvt0o/w/TRn3vJp9DSIwcDu15iro/M7T6PGbckDlY5WpG1W/h6l1+xpyTqsvm+nY4y8msWRPst94mFs9au6PtC9G/DwTeivBO6tnW4rGeNfRWvaU9juTqjPFtdjXa9duX9lQqz/ndTosT+F/eVVKXWAOq8QsYPF4St/e6kViaNr5ldK1HdSp4L38vQ2Y+2tfEvkuoU5WfPb5ZmInx4SFu3xm/I19yxjLD2ppqyuY7SfUsm1Z9WamHm4vyVtCpT5vHYbmrZ6EULaCQJDL9maml2u1d28ddiib1rk8OvXiZs/C1fffvcbW+7Bg+QwQTTvgsRRr1sc2XWvgvf8AQuntt6uNjtyeLaYrExMoXl3LqlSlJQxUrJbLm9Cvi7tib8/X4EMmSIjUN3T+mZMuSMmWNV/X3bfEMli8fxujXlyFWORGdT2ulRFRVVV/k9x2iKR5VdQw58vJvaKTr7Ktxa3VXmtu/bsQxxIszmvkeiIqq7Sa+iqU47RN5l1Odiv+BpjpG58JH2lZWrcoVIaVqGdElVz0ikR2tJ2/clnmJr4UdF42SmS1slZjwncFlsVQ43TidkKqSRVWq5vvU31dO1TXrssreIr6sHJ42fJyLT2T5n6Ij2fZykylPRtzshndO+VPeL0o9Hd17+pDFkrPiWrq3DyReMlI3Goj/TxZjuL4jMwzLe+1SumRY4Ve1WRKv4nL6J8T2a0i25lOc/P5GGaxTURHr7z+jb9oWVpWuPLDUuQTPfMzbY5EcukXe9fRBmtHbpX0jj5cfJi1qzEalJ8MydGTjlKJtiJr4YkjkY56IqKnwJ47RNYZOoYMscm8zWfM7VblzsLirFaXCrE6822k8rmSK5URO+t+SKvkU5O2nmHV6fHJzxaM2+3tmIXCtk8PyfFrE6SN8cjUSWFz+lzV9P8Akui1ckOPfByOHl3EeY93hcy+G4tjUr1nMVWJ/Z14nbc5fiv8qJtXHCePj8nmZe60evrLlOQty37s1uwu5ZndTvh8P4MVrTa231+HDTDjilfSGueLABpPQDKgYAA1DKAYAaAJoBpPQDK9/EDAADPbz0BjwAz2BrYJA8gYPQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABL8poQ43OWa1bq901dtRy71vvoneO20xDJwc1s2Ct7+qIINYAAAAAAAAAAAAAAAAAAOj8P4tiruDis2oXSSyOVVVX+HlpNGnHjrNdy+b6h1DPjzzSk6iH/2Q==">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href=".//zomato.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <div>
+                <a id="get" href="https://www.zomato.com/mobile">
+                    <h4>Get the App</h4>
+                </a>
+            </div>
+            <ul class="nav_bar">
+                <li><a href="https://www.zomato.com/partner-with-us/new/">Add restaurant</a></li>
+                <li><a href="https://www.zomato.com/">Log in</a> </li>
+                <li><a href="https://www.zomato.com/">Sign up</a></li>
+            </ul>
+        </div>
+        <div class="head">
+            <img class="logo" src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png"
+                alt="">
+            <h3>Discover the best food and drinks in Trivandrum</h3>
+            <div class="search">
+                <i class="fa-solid fa-location-dot"></i>
+                <input class="input_1" type="text" placeholder="Trivandrum">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input class="input_2" type="text" placeholder="Search for restaurant,cuisine or a dish">
+            </div>
+        </div>
+
+    </header>
+    <section class="section_1">
+        <a href="https://www.zomato.com/trivandrum/order-food-online?delivery_subzone=18310" target="_blank">
+            <div class="card">
+                <div class="card_img">
+                    <img src="https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*"
+                        alt="">
+                </div>
+                <div class="card_content">
+                    <p id="order">Order Online</p>
+                    <p id="delivery">Stay home and order to your doorstep</p>
+                </div>
+            </div>
+        </a>
+        <a href="https://www.zomato.com/trivandrum/restaurants?category=2&context=dineout" target="_blank">
+            <div class="card">
+                <div class="card_img">
+                    <img src="https://b.zmtcdn.com/webFrontend/d026b357feb0d63c997549f6398da8cc1647364915.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*"
+                        alt="">
+                </div>
+                <div class="card_content">
+                    <p id="order">Dining</p>
+                    <p id="delivery">View the city's favourite dining venues</p>
+                </div>
+            </div>
+        </a>
+    </section>
+    <section class="section_2">
+        <div class="first">
+            <div class="second">
+                <h2>Collections</h2>
+            </div>
+            <div class="third">
+                <h6>Explore curated lists of top restaurants, cafes, pubs, and bars in Trivandrum, based on trends</h6>
+                <a href="https://www.zomato.com/trivandrum/collections">All collections in Trivandrum <i
+                        class="fas fa-caret-right"></i> </a>
+            </div>
+        </div>
+        <div class="places">
+            <a href="https://www.zomato.com/trivandrum/must-visit-restaurants-in-trivandrum" target="_blank">
+                <div class="first_card">
+                    <img src="https://b.zmtcdn.com/data/collections/181ba453c2f871208a233ee49f350816_1528271253.jpg?output-format=webp"
+                        alt="">
+                    <p class="card_details">Must-visit restaurants in Tr...<br>8 Places <i
+                            class="fas fa-caret-right"></i>
+                    </p>
+                </div>
+            </a>
+            <a href="https://www.zomato.com/trivandrum/great-cafes" target="_blank">
+                <div class="first_card">
+                    <img src="https://b.zmtcdn.com/data/collections/7e98e98150ebea8e594fc42d3d000f34_1691353631.png?output-format=webp"
+                        alt="">
+                    <p class="card_details">Great Cafes<br>7 Places <i class="fas fa-caret-right"></i> </p>
+
+                </div>
+            </a>
+        </div>
+    </section>
+    <section class="section_3">
+        <div class="heading">
+            <h2>Popular localities in and around <span> Trivandrum </span></h2>
+        </div>
+        <div class="section_box">
+            <a href="https://www.zomato.com/trivandrum/palayam-restaurants" target="_blank">
+                <div class="boxes">
+                    <div class="flex">
+                        <h5>Palayam</h5>
+                        <p>193 places</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.zomato.com/trivandrum/kulathoor-restaurants" target="_blank">
+                <div class="boxes">
+                    <div class="flex">
+                        <h5>Kulathoor</h5>
+                        <p>164 places</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.zomato.com/trivandrum/ambalamukku-restaurants" target="_blank">
+                <div class="boxes">
+                    <div class="flex">
+                        <h5>Ambalamukku</h5>
+                        <p>116 places</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.zomato.com/trivandrum/kazhakkoottam-restaurants" target="_blank">
+                <div class="boxes">
+                    <div class="flex">
+                        <h5>Kazhakkoottam</h5>
+                        <p>110 places</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.zomato.com/trivandrum/kumarapuram-restaurants" target="_blank">
+                <div class="boxes">
+                    <div class="flex">
+                        <h5>Kumarapuram</h5>
+                        <p>105 places</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.zomato.com/trivandrum/thycaud-restaurants" target="_blank">
+                <div class="boxes">
+                    <div class="flex">
+                        <h5>Thycaud</h5>
+                        <p>94 places</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.zomato.com/trivandrum/kannanthura-restaurants" target="_blank">
+                <div class="boxes">
+                    <div class="flex">
+                        <h5>Kannanthura</h5>
+                        <p>83 places</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.zomato.com/trivandrum/kesavadasapuram-restaurants" target="_blank">
+                <div class="boxes">
+                    <div class="flex">
+                        <h5>Kesavadasapuram</h5>
+                        <p>73 places</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="" target="_blank">
+                <div class="boxes">
+                    <div class="see">
+                        <div class="flex">
+                            <h5 id="see_more">see more</h5>
+                        </div>
+                        <div>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+    </section>
+    <section class="section_4">
+        <div class="flex_set">
+            <img id="fleximage" src="https://b.zmtcdn.com/data/o2_assets/ce5bc038a8a2d4f8f24465c8826182af1726501431.png"
+                alt="">
+            <div class="address">
+                <h2>Get the Zomato app</h2>
+                <p id="zomp">We will send you a link, open it on your phone to download <br><br><br> the app</p>
+                <div class="flex_radio">
+                    <div>
+                        <input type="radio" name="fill" id="email" checked>
+                        <label for="email">Email</label>
+
+                        <input type="radio" id="phone">
+                        <label for="phone">Phone</label>
+                    </div>
+                    <div class="table">
+                        <div class="email_span">
+                            <input class="input" type="text" placeholder="Email"> <br>
+                        </div>
+                        <div class="button">
+                            <a href=""><button>Share App Link</button> </a>
+
+                        </div>
+                    </div>
+                    <p class="download">Download app from</p>
+                    <div class="flex_app">
+                        <a href="https://www.zomato.com/"> <img
+                                src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png"
+                                alt=""></a>
+                        <a href="https://www.zomato.com/"> <img
+                                src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png"
+                                alt=""></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="section_5">
+        <div class="titlebox">
+            <h2> Explore options near me</h2>
+        </div>
+        <div class="rowbox">
+
+            <div class="mainbox">
+                <div class="rbox">
+                    <p>Popular Cuisines Near Me</p>
+                </div>
+                <div class="symbol">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+
+
+            <div class="mainbox">
+                <div class="rbox">
+                    <p>Popular Restaurant Types Near me</p>
+                </div>
+                <div class="symbol">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+            <div class="mainbox">
+                <div class="rbox">
+                    <p>Top Restaurant Chains</p>
+                </div>
+                <div class="symbol">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+            <div class="mainbox">
+                <div class="rbox">
+                    <p>Cities We Deliver To</p>
+                </div>
+                <div class="symbol">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section6">
+        <div class="footer">
+            <div class="footerset">
+                <div class="footerimg">
+                    <img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png?fit=around|198:42&crop=198:42;*,*"
+                        alt="">
+                </div>
+                <div class="foot1">
+                    <div class="footspan">
+                        <img src="data:image/png;base64,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"
+                            alt="">
+                        <span>India</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="footspan">
+                        <img src="data:image/png;base64,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"
+                            alt="">
+                        <span>English</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="footerset2">
+                <div>
+                    <h4>ABOUT ZOMATO</h4>
+                    <a class="footerlinks" href="https://www.zomato.com/who-we-are">Who We Are</a>
+                    <a class="footerlinks" href="https://blog.zomato.com/">Blog</a>
+                    <a class="footerlinks" href="https://www.zomato.com/careers">Work With Us</a>
+                    <a class="footerlinks" href="https://www.zomato.com/investor-relations">Investor Relations</a>
+                    <a class="footerlinks" href="https://www.zomato.com/report-fraud">Report Fraud</a>
+                    <a class="footerlinks" href="https://blog.zomato.com/press-kit">Press Kit</a>
+                    <a class="footerlinks" href="https://www.zomato.com/contact">Contact Us</a>
+                </div>
+                <div>
+                    <h4>ZOMAVERSE</h4>
+                    <a class="footerlinks" href="https://www.zomato.com/">Zomato</a>
+                    <a class="footerlinks" href="https://blinkit.com/">Blinkit</a>
+                    <a class="footerlinks" href="https://www.district.in/">District</a>
+                    <a class="footerlinks" href="https://www.feedingindia.org/">Feeding India</a>
+                    <a class="footerlinks" href="https://www.hyperpure.com/">Hyperpure</a>
+                    <a class="footerlinks" href="https://www.zomato.com/live">Zomato Live</a>
+                    <a class="footerlinks" href="https://www.zomato.com/zomaland">Zomaland</a>
+                    <a class="footerlinks" href="https://www.weatherunion.com/">Weather Union</a>
+                </div>
+                <div>
+                    <h4>FOR RESTAURANTS</h4>
+                    <a class="footerlinks" href="https://www.zomato.com/partner-with-us/new/">Partner With Us</a>
+                    <a class="footerlinks"
+                        href="https://play.google.com/store/apps/details?id=com.application.services.partner&hl=en_IN&gl=US">Apps
+                        For You</a>
+                </div>
+                <div id="margindiv">
+                    <h4>LEARN MORE</h4>
+                    <a class="footerlinks" href="https://www.zomato.com/policies/privacy/">Privacy</a>
+                    <a class="footerlinks" href="https://www.zomato.com/policies/security/">Security</a>
+                    <a class="footerlinks" href="https://www.zomato.com/policies/terms-of-service/">Terms</a>
+                </div>
+                <div class="footerbox">
+                    <h4>SOCIAL LINKS</h4>
+                    <div class="icons">
+                        <a href="https://in.linkedin.com/company/zomato"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                        <a href="https://www.instagram.com/zomato/"><i
+                                class="fa-brands fa-square-instagram fa-lg"></i></a>
+                        <a href="https://x.com/zomato?mx=2"><i class="fa-brands fa-square-x-twitter fa-lg"></i></a>
+                        <a href="https://www.youtube.com/zomato"> <i class="fa-brands fa-youtube fa-lg"></i></a>
+                        <a href="https://www.facebook.com/zomato"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                    </div>
+                    <a href="https://www.zomato.com/mobile"><img
+                            src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png"
+                            alt=""></a>
+                    <a href="https://www.zomato.com/mobile"><img
+                            src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png"
+                            alt=""></a>
+                </div>
+            </div>
+            <hr>
+            <p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and
+                Content
+                Policies. All trademarks are properties of their respective owners . 2008-2025 © Zomato™ Ltd. All rights
+                reserved.</p>
+        </div>
+    </section>
+</body>
+
+</html>
